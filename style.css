@@ -118,3 +118,17 @@ footer {
     justify-content: space-around;
     width: 100%;
 }
+
+#partnerek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 10rem;
+    gap: calc(var(--gap) / 2);
+    margin: var(--gap) 0;
+
+    
+}
+
+#partnerek img {
+    width: 100%;
+}
